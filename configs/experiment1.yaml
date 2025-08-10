@@ -1,0 +1,15 @@
+# Experiment 1: More complex scenario
+run_name: "PF_LSTM_MATD3_exp1"
+seed: 123
+
+env:
+  n_uavs: 4
+  n_obstacles: 5
+  max_steps: 700
+
+agent:
+  lr_actor: 0.0003
+  lr_critic: 0.003
+
+train:
+  total_episodes: 10000
